@@ -1,0 +1,198 @@
+/* CSS PROJET CDIN */
+*{
+	font-family: "century gothic", sans-serif;
+}
+
+@font-face {
+	font-family: 'century gothic';
+	src: url('Century-Gothic_9791.ttf');
+}
+
+h1{
+	font-family: "brush script mt";
+	font-size: 4.5em;
+}
+
+h2{
+	font-family: "brush script mt";
+	font-size: 3.5em;
+}
+
+h3{
+	font-family: "brush script mt";
+	font-size: 2.5em;
+}
+/* HEADER */
+header{
+	height: 3em;
+	background-color:#FFFFFF;
+	outline-width:0em;
+	outline-color:#689AD3;
+	outline-style:solid;
+	margin:0% 0% 0% 0%;
+}
+	/* NAVIGATION */
+		/* CHANGEMENT COULEUR DE FOND */
+
+.nav-item {
+	border-radius: 1rem;
+	background-color: #f8cbb4;
+}
+
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	margin-left: 3%;
+
+}
+
+		/* CHANGEMENT COULEUR POLICE */
+
+.bg-light {
+    background-color: #FFFFFF!important;
+}
+
+	/* FIN NAVIGATION*/
+
+/* FIN HEADER */
+
+/* BODY*/
+
+body{
+	background-image: url(fond-d-39-ecran-iphone-6-marbre-or-rose-1.jpg);
+}
+	/* SECTION */
+section {
+	margin: 8% 4% 2% 4%;
+	padding : 0%;
+	background: #FFFFFF;
+	border : solid black 1px;
+	border-width: 0.1em;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	
+	box-shadow: 4px 4px 4px #aaa;
+
+	overflow: scroll;
+}
+
+section h1 {
+	padding: 3%;
+	text-align: center;
+	background: #e82c5e;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+
+}
+
+section h2 {
+	padding: 3%;
+	text-align: center;
+	background: #e82c5e;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+
+}
+
+section p{
+	margin: 2% 2% 2% 2% ;
+	text-align: center;
+	font-size: 1.5em;
+}
+	/* FIN SECTION*/
+
+	/* ARTICLE */
+article {
+	background:#FFFFFF;
+}
+
+article {
+	margin: 4% 4% 2% 4%;
+	padding : 0%;
+	
+	border : solid black 1px;
+	border-width: 0.1em;
+	border-style: solid;
+	border-color: black;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 4px 4px 4px #aaa;
+	overflow: scroll;
+}
+
+article h3 {
+	
+	background: #f8cbb4;
+	padding: 3% ;
+	text-align: center;
+}
+article p{
+	padding: 3% ;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+article video,audio
+{
+	margin: 2%;
+	max-width: 90%;
+
+}
+	/* FIN ARTICLE */
+	/* TABLEAU*/
+
+table{
+	margin: 2% 2% 2% 0%;
+	border-collapse: collapse; /*coller bordure tbl*/
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+	/* FIN TABLEAU */
+	/* FORM */
+input{
+	border-color: black;
+}
+	/* FIN FORM*/
+
+/*FIN BODY*/
+
+/* FOOTER */
+
+footer{
+	background-color: white;
+	margin-bottom: 0px;
+	margin-top: 100px;
+}
+
+#bio {
+	margin-top: 300px;
+}
+	/* BOUTON EMAIL */
+.btn-primary {
+  background-color: #f8cbb4;
+  border-color: white;
+
+}
+
+.btn-primary:hover {
+  background-color: #f8cbb4;
+  border-color: white;
+}
+
+.btn-primary a{
+	color: black;
+}
+
+	/*FIN BOUTON EMAIL*/
+
+/* FIN FOOTER */
+
+nav{
+	margin-top: 100px;
+}

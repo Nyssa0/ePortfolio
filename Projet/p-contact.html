@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon ePortfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="projet.css" />
+</head>
+
+<body>
+	<!-- haut de page -->
+	<header>
+		<!-- barre de navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- logo -->
+		<a class="navbar-brand" href="../index.html">
+			<img src="eportfolio.png" height="50" width="100"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto "> 
+
+      			<!-- menu biographie -->
+      			<li class="nav-item">
+        		<a class="nav-link" href="../index.html" title="Voir ma biographie">Biographie<span class="sr-only">(current)</span></a>
+      			</li>
+
+      			<!-- menu deroulant compétences -->
+      			<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="p-compétences.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mes compétences">Compétences</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        			<a class="dropdown-item" href="p-compétences.html">Compétences</a>
+					<a class="dropdown-item" href="p-compétences.html#Langues">Langues</a>
+         			<a class="dropdown-item" href="p-compétences.html#Langages_de_programmation">Langages de programmation</a>
+         			<a class="dropdown-item" href="p-compétences.html#Outils_informatiques">Outils informatiques</a>
+        			</div>
+        		</li>
+
+      			<!-- menu deroulant parcours -->
+        		<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="p-parcours.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mon parcours">Parcours</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        			<a class="dropdown-item" href="p-parcours.html">Parcours</a>
+					<a class="dropdown-item" href="p-parcours.html#Ecole_Maternelle">Ecole Maternelle</a>
+			    	<a class="dropdown-item" href="p-parcours.html#Ecole_Primaire">Ecole Primaire</a>
+			    	<a class="dropdown-item" href="p-parcours.html#Collège">Collège</a>
+			   		<a class="dropdown-item" href="p-parcours.html#Lycée">Lycée</a>
+			   		<a class="dropdown-item" href="p-parcours.html#PACES">PACES</a>
+			   		<a class="dropdown-item" href="p-parcours.html#DUT">DUT</a>
+        			</div>
+        		</li>
+
+        		<!-- menu deroulant loisirs -->
+        		<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="p-compétences.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mes loisirs">Loisirs</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        				<a class="dropdown-item" href="p-parcours.html">Loisirs</a>
+        				<a class="dropdown-item" href="p-loisirs.html#Musique">Musique</a>
+			    		<a class="dropdown-item" href="p-loisirs.html#Anime">Anime</a>
+			    	</div>
+        		</li>
+
+      			<!-- menu deroulant contact -->
+        		<li class="nav-item active">
+        			<a class="nav-link" href="p-contact.html" title="Me contacter">Contact<span class="sr-only">(current)</span></a>
+      			</li>
+      		</ul>
+      	</div>
+	</nav>	
+
+	</header>
+
+
+	<section id="p-contact">
+        <h2>Mon contact</h2>
+		<article>
+			<h3>Formulaire de contact</h3>
+	        <form method="post" action="traitement.php">
+	            <fieldset>
+	                <legend>Vos coordonnées</legend>
+
+	                <label for="nom">Quel est votre nom ?</label>
+	                <input type="text" name="nom" id="nom" required="" />
+	                <br/>
+
+	                <label for="prenom">Quel est votre prénom ?</label>
+	                <input type="text" name="prenom" id="prenom" required="" />
+	                <br/>
+
+	                <label for="date">Date du jour</label>
+	                	<input type="date" />
+	                <br/>
+	 
+	                <label for="email">Quel est votre e-mail ?</label>
+	                <input type="email" name="email" id="email" required="" />
+	                <br/>
+	            </fieldset>
+
+	            <fieldset>
+	                <legend>Pour quelle raison souhaitez-vous me contacter ?</legend>
+
+	                <select name="raisons" id="raisons">
+	                    <optgroup label="Votre raison">
+	                        <option value="offre">Mon profil vous intéresse ?</option>
+	                        <option value="remarques">Vous souhaitez faire des remarques sur mon site ?</option>
+	                        <option value="recommandation">Vous souhaitez faire office de recommandation ?</option>
+	                    </optgroup>
+	                </select>
+	            </fieldset>
+	            <br/>
+				<button type="button" class="btn btn-primary">
+				<a href="mailto:hassinaayachi@hotmail.com"><em>Envoyer</em></a>
+	        </form>
+    	</article>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+<footer>
+	<center><p><em>AYACHI Hassina Etudiante en DUT Informatique à l'IUT Paris Descartes</em></p></center>
+	<center><button type="button" class="btn btn-primary">
+	<a href="mailto:hassinaayachi@hotmail.com"><em>Vous pouvez me contacter par e-mail</em></a>
+	</button></center>
+</footer>
+
+</html>

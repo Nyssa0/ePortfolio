@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon ePortfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="projet.css" />
+</head>
+
+<body>
+	<!-- haut de page -->
+	<header>
+		<!-- barre de navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- logo -->
+		<a class="navbar-brand" href="../index.html">
+			<img src="eportfolio.png" height="50" width="100"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto "> 
+
+      			<!-- menu biographie -->
+      			<li class="nav-item">
+        		<a class="nav-link" href="../index.html" title="Voir ma biographie">Biographie<span class="sr-only">(current)</span></a>
+      			</li>
+
+      			<!-- menu deroulant compétences -->
+      			<li class="nav-item dropdown active">
+        			<a class="nav-link dropdown-toggle" href="p-compétences.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mes compétences">Compétences</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        			<a class="dropdown-item" href="p-compétences.html">Compétences</a>
+					<a class="dropdown-item" href="p-compétences.html#Langues">Langues</a>
+         			<a class="dropdown-item" href="p-compétences.html#Langages_de_programmation">Langages de programmation</a>
+         			<a class="dropdown-item" href="p-compétences.html#Outils_informatiques">Outils informatiques</a>
+        			</div>
+        		</li>
+
+      			<!-- menu deroulant parcours -->
+        		<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="p-parcours.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mon parcours">Parcours</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        			<a class="dropdown-item" href="p-parcours.html">Parcours</a>
+					<a class="dropdown-item" href="p-parcours.html#Ecole_Maternelle">Ecole Maternelle</a>
+			    	<a class="dropdown-item" href="p-parcours.html#Ecole_Primaire">Ecole Primaire</a>
+			    	<a class="dropdown-item" href="p-parcours.html#Collège">Collège</a>
+			   		<a class="dropdown-item" href="p-parcours.html#Lycée">Lycée</a>
+			   		<a class="dropdown-item" href="p-parcours.html#PACES">PACES</a>
+			   		<a class="dropdown-item" href="p-parcours.html#DUT">DUT</a>
+        			</div>
+        		</li>
+
+        		<!-- menu deroulant loisirs -->
+        		<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="p-loisirs.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Voir mes loisirs">Loisirs</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        				<a class="dropdown-item" href="p-loisirs.html">Loisirs</a>
+        				<a class="dropdown-item" href="p-loisirs.html#Musique">Musique</a>
+			    		<a class="dropdown-item" href="p-loisirs.html#Anime">Anime</a>
+			    	</div>
+        		</li>
+
+      			<!-- menu deroulant contact -->
+        		<li class="nav-item">
+        			<a class="nav-link" href="p-contact.html" title="Me contacter">Contact<span class="sr-only">(current)</span></a>
+      			</li>
+      		</ul>
+      	</div>
+	</nav>	
+
+	</header>
+
+	<!-- section compétence -->
+	<section id="p-compétences">
+		<h2>Mes compétences</h2>
+		<p>Bienvenue dans la section compétences, c'est ici que je vais vous présenter les capacités que j'ai acquise au fur et à mesure de ma scolarité.</p>
+		<!-- article langues -->
+		<article id="Langues">
+			<h3>Langues</h3>
+			<p>Voici le tableau récapitulatif des langues que je parle</p>
+			<!-- tableau langues -->
+			<table class="table table-bordered table-hover table-striped table-dark">
+
+				<!-- entete du tableau -->
+				<thead>
+				    <tr>
+				      	<th scope="col">Langues</th>
+				    	<th scope="col">Niveau</th>
+				    </tr>
+			  	</thead>
+
+			  	<!-- corps du tableau -->
+			    <tbody>
+			    	<!-- lignes -->
+				  	<tr>
+				        <th scope="row">Français</th>
+				        <td>C2</td>
+				    </tr>
+				    <tr>
+				        <th scope="row">Anglais</th>
+				        <td>C2</td>
+				    </tr>
+				    <tr>
+				        <th scope="row">Espagnol</th>
+				        <td>B2</td>
+				    </tr>
+				    <tr>
+			    
+			    </tbody>
+			</table>
+		</article>
+
+		<!-- tableau langagues de prog -->
+		<article id="Langages_de_programmation">
+			<h3>Langages de programmation</h3>
+			<p>Je vous présente un tableau dans lequel vous pouvez voir le niveau que j'ai acquis en langage de programmation lors de mon parcours en DUT Informatique.</p>
+			<table class="table table-bordered table-hover table-striped table-dark">
+				<thead>
+				    <tr>
+				        <th scope="col">Langages</th>
+				        <th scope="col">Niveau</th>
+				    </tr>
+				</thead>
+			  	<tbody>
+				    <tr>
+				      <th scope="row">C</th>
+				      <td>40%</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">C++</th>
+				      <td>20%</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">HTML</th>
+				      <td>85%</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">CSS</th>
+				      <td>75%</td>
+				    </tr>
+			  	</tbody>
+			</table>
+		</article>
+
+		<!-- tableau outils info -->
+		<article id="Outils_informatiques">
+			<h3>Outils informatiques</h3>
+			<p>Voici une liste des outils informatique que j'ai appris à maîtrisé lors de mes années de pratique depuis mes années collèges.</p>
+			<table class="table table-bordered table-hover table-striped table-dark">
+			  	<thead>
+			    	<tr>
+			      		<th scope="col">Logiciels</th>
+			      		<th scope="col">Niveau</th>
+			    	</tr>
+			  	</thead>
+			  	<tbody>
+			    	<tr>
+			    	  	<th scope="row">Microsoft Word</th>
+			      		<td>100%</td>
+			    	</tr>
+			    	<tr>
+			      		<th scope="row">Microsoft Excel</th>
+			      		<td>85%</td>
+			    	</tr>
+			    	<tr>
+			      		<th scope="row">Microsoft Powerpoint</th>
+			      		<td>95%</td>
+			    	</tr>
+			  	</tbody>
+			</table>
+		</article>
+
+	</section>
+
+<!-- javascript -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+<footer>
+	<center><p><em>AYACHI Hassina Etudiante en DUT Informatique à l'IUT Paris Descartes</em></p></center>
+	<center><button type="button" class="btn btn-primary">
+	<a href="mailto:hassinaayachi@hotmail.com"><em>Vous pouvez me contacter par e-mail</em></a>
+	</button></center>
+</footer>
+
+</html>
